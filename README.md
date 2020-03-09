@@ -19,4 +19,7 @@ Sudo chmod +x VPN.sh
 # lunch the vpn client using below command
 sh VPN.sh start
 
+# To stop the vpn client and kill the process run
+sh VPN.sh stop
+
 # Done.
