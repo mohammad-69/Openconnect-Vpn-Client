@@ -16,7 +16,7 @@ cert="server certificate"
 case "$1" in
 start)
     #bad certs
-    echo "$password" | openconnect -b --pid-file=$pidfile --user=$username --servercert=$cert $url  
+    echo "$password" | sudo openconnect -b --pid-file=$pidfile --user=$username --servercert=$cert $url  
     ;;
 stop)
     cat $pidfile  | xargs kill -2
