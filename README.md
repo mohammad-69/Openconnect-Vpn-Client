@@ -16,7 +16,7 @@ sudo nano -f /etc/sudoers
 # Give it executable permission
 Sudo chmod +x VPN.sh
 
-# lunch the vpn client using below command
+# launch the vpn client using below command
 sh VPN.sh start
 
 # To stop the vpn client and kill the process run
